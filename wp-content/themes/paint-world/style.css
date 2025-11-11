@@ -8,6 +8,7 @@ Version: 1.0
 License: GNU General Public License v2 or later
 Text Domain: paint-world
 */
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f5;
@@ -16,9 +17,30 @@ body {
   color: #333;
 }
 
-.post-title {
-  display: none;
+/* Homepage specific */
+
+.home-page {
+  background: #f0f8ff;
+  padding: 2rem;
 }
+
+.home-page .hero {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.home-page .hero h1 {
+  font-size: 3rem;
+  color: #222;
+}
+
+.home-page .featured-posts .post {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Index page specific */
 
 .site-content {
   width: 80%;
